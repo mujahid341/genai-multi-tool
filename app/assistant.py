@@ -39,7 +39,7 @@ if st.button("Generate"):
 
             # Download
             save_output(result)
-            st.download_button("Download Result", result, file_name="gemini_output.txt")
+            st.download_button("Download Result", result, file_name="output.txt")
 
             log_event(query, intent, lang_output)
 
