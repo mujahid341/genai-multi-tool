@@ -1,0 +1,22 @@
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore Streamlit secrets
+.streamlit/secrets.toml
+
+# Ignore logs and temporary files
+logs/
+*.log
+*.txt
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore VSCode settings (optional)
+.vscode/
