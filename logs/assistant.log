@@ -1,0 +1,7 @@
+2025-09-15 11:51:00.734315 | Mode: code | Lang: English | Query: write the code to print the table of 5 in java
+2025-09-15 11:51:49.977776 | Mode: text | Lang: English | Query: write a application for 2 days leave
+2025-09-15 11:52:54.196860 | Mode: text | Lang: English | Query: import streamlit as st
+from utils import detect_intent, log_event, save_output
+from prompts import build_prompt
+
+explain this in simple way

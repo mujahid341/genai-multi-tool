@@ -1,0 +1,13 @@
+This code snippet uses the Python library `streamlit` to create a simple web application.  Let's break down what each part does:
+
+* **`import streamlit as st`**: This line imports the `streamlit` library and gives it the shorter name `st` for easier use. Streamlit is used to quickly build interactive web apps with minimal code.
+
+* **`from utils import detect_intent, log_event, save_output`**: This imports three functions from a file named `utils.py`.  These functions likely handle:
+    * `detect_intent`:  Probably figures out what the user wants based on their input (like understanding if a user wants to order food or ask a question).
+    * `log_event`:  Records what happened in the application (like what the user typed and what the app responded).
+    * `save_output`:  Saves the results of the application's actions (like saving a user's order).
+
+* **`from prompts import build_prompt`**: This imports a function `build_prompt` from a file named `prompts.py`. This function likely creates the text prompts that are used to interact with an AI model or some other system that needs instructions.
+
+
+In short, this code sets up a Streamlit app that likely interacts with an AI or similar system.  It uses helper functions to understand user input, record what's happening, save results, and generate the prompts needed for the interaction.  The `utils.py` and `prompts.py` files contain the detailed logic for these operations.
