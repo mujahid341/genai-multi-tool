@@ -9,7 +9,7 @@ genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 model = genai.GenerativeModel(model_name="models/gemini-1.5-flash")
 
 # App UI
-st.set_page_config(page_title="Gemini Assistant", page_icon="")
+st.set_page_config(page_title="Assistant", page_icon="")
 st.title("All-in-One Assistant")
 
 query = st.text_area("Ask anything (code, translate, text, summarize...)")
